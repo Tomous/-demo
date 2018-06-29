@@ -15,6 +15,10 @@
 		80DBB00B20E60DB700A03E13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBB00A20E60DB700A03E13 /* main.m */; };
 		80DBB01520E60DB700A03E13 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBB01420E60DB700A03E13 /* ____Tests.m */; };
 		80DBB02020E60DB700A03E13 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBB01F20E60DB700A03E13 /* ____UITests.m */; };
+		80DBB03220E60DE000A03E13 /* DCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBB03120E60DE000A03E13 /* DCTableViewCell.m */; };
+		80DBB03520E6109600A03E13 /* DCChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBB03420E6109600A03E13 /* DCChooseView.m */; };
+		80DBB03820E6152900A03E13 /* 对号-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DBB03620E6152900A03E13 /* 对号-normal.png */; };
+		80DBB03920E6152900A03E13 /* 对号-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DBB03720E6152900A03E13 /* 对号-selected.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		80DBB01B20E60DB700A03E13 /* 弹框选择UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "弹框选择UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DBB01F20E60DB700A03E13 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		80DBB02120E60DB700A03E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DBB03020E60DE000A03E13 /* DCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTableViewCell.h; sourceTree = "<group>"; };
+		80DBB03120E60DE000A03E13 /* DCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTableViewCell.m; sourceTree = "<group>"; };
+		80DBB03320E6109600A03E13 /* DCChooseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCChooseView.h; sourceTree = "<group>"; };
+		80DBB03420E6109600A03E13 /* DCChooseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCChooseView.m; sourceTree = "<group>"; };
+		80DBB03620E6152900A03E13 /* 对号-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对号-normal.png"; sourceTree = "<group>"; };
+		80DBB03720E6152900A03E13 /* 对号-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对号-selected.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +115,14 @@
 				80DBAFFC20E60DB300A03E13 /* AppDelegate.m */,
 				80DBAFFE20E60DB300A03E13 /* ViewController.h */,
 				80DBAFFF20E60DB300A03E13 /* ViewController.m */,
+				80DBB03320E6109600A03E13 /* DCChooseView.h */,
+				80DBB03420E6109600A03E13 /* DCChooseView.m */,
+				80DBB03020E60DE000A03E13 /* DCTableViewCell.h */,
+				80DBB03120E60DE000A03E13 /* DCTableViewCell.m */,
 				80DBB00120E60DB300A03E13 /* Main.storyboard */,
 				80DBB00420E60DB700A03E13 /* Assets.xcassets */,
+				80DBB03620E6152900A03E13 /* 对号-normal.png */,
+				80DBB03720E6152900A03E13 /* 对号-selected.png */,
 				80DBB00620E60DB700A03E13 /* LaunchScreen.storyboard */,
 				80DBB00920E60DB700A03E13 /* Info.plist */,
 				80DBB00A20E60DB700A03E13 /* main.m */,
@@ -236,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80DBB00820E60DB700A03E13 /* LaunchScreen.storyboard in Resources */,
+				80DBB03920E6152900A03E13 /* 对号-selected.png in Resources */,
 				80DBB00520E60DB700A03E13 /* Assets.xcassets in Resources */,
+				80DBB03820E6152900A03E13 /* 对号-normal.png in Resources */,
 				80DBB00320E60DB300A03E13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +283,8 @@
 				80DBB00020E60DB300A03E13 /* ViewController.m in Sources */,
 				80DBB00B20E60DB700A03E13 /* main.m in Sources */,
 				80DBAFFD20E60DB300A03E13 /* AppDelegate.m in Sources */,
+				80DBB03520E6109600A03E13 /* DCChooseView.m in Sources */,
+				80DBB03220E60DE000A03E13 /* DCTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M73FT4GVKP;
+				DEVELOPMENT_TEAM = 776FWT2SUP;
 				INFOPLIST_FILE = "弹框选择/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M73FT4GVKP;
+				DEVELOPMENT_TEAM = 776FWT2SUP;
 				INFOPLIST_FILE = "弹框选择/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
